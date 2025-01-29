@@ -1,17 +1,2 @@
-using System.ServiceProcess;
-namespace GetLiquidacion
-{
-
-class Program
-{
-    static void Main()
-    {
-        ServiceBase[] ServicesToRun;
-        ServicesToRun = new ServiceBase[]
-        {
-            new GetLiquidacionService()
-        };
-        ServiceBase.Run(ServicesToRun);
-    }
-}
-}
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
